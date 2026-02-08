@@ -78,6 +78,27 @@ This starts:
 ### Database
 - `npm run db:generate` - Generate Prisma client
 - `npm run db:migrate` - Run database migrations
+
+## Current Status
+
+- Full-stack API server scaffold with Docker and health endpoints documented.
+- Actual endpoint coverage and integrations not verified in this audit.
+- Operational estimate: **50%** (robust scaffold, unverified feature completeness).
+
+## API Endpoints
+
+- Health endpoints documented above.
+- Other endpoints are not enumerated here; check the `/docs` OpenAPI output once running.
+
+## Tests
+
+- Test scripts exist, but not run in this audit.
+
+## Future Work
+
+- Verify and document core API routes beyond health checks.
+- Add integration tests for database and Redis flows.
+- Validate Docker compose setup end-to-end.
 - `npm run db:studio` - Open Prisma Studio
 
 ### Docker
